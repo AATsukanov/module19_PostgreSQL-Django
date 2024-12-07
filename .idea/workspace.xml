@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80aafce8-554a-4ef8-9544-a76c7302b77a" name="Changes" comment="добавлено решение 19.6">
+    <list default="true" id="80aafce8-554a-4ef8-9544-a76c7302b77a" name="Changes" comment="добавлено решение 19.6 + операции решения записал в файл Решения.txt">
+      <change afterPath="$PROJECT_DIR$/reqs_new.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyProject/MyProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyProject/MyProject/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyProject/Решение.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MyProject/Решение.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyProject/task_postgre/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyProject/task_postgre/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,11 +57,20 @@
       <option name="project" value="LOCAL" />
       <updated>1733563997672</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="добавлено решение 19.6 + операции решения записал в файл Решения.txt">
+      <option name="closed" value="true" />
+      <created>1733565593541</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733565593541</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="добавлено решение 19.6" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавлено решение 19.6" />
+    <MESSAGE value="добавлено решение 19.6 + операции решения записал в файл Решения.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлено решение 19.6 + операции решения записал в файл Решения.txt" />
   </component>
 </project>
