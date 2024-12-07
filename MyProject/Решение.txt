@@ -29,7 +29,19 @@ DATABASES = {
     }
 }
 
-БД my_database - должна бфть создана через "pgAdmin 4".
+еще прописываем приложение 'task_postgre' в список INSTALLED_APPS:
+
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'task_postgre'
+]
+
+БД my_database - должна быть создана через "pgAdmin 4".
 
 Потом в models.py добавляем модель:
 
@@ -47,3 +59,45 @@ python manage.py migrate
 создаем админ-пользователя:
 python manage.py createsuperuser
 заполняем...
+
+В консоли запускаю InteractiveConsole:
+python manage.py shell
+
+далее работаю в ней,
+проверяем:
+
+>>> from task_postgre.models import Post
+>>> Post.objects.all()
+<QuerySet []>
+
+заполняем:
+>>> Post.objects.create(title='Article-1', content='Crumpled aluminum hydroxide nanostructures as a microenvironment dysregulation agent for cancer treatment.')
+<Post: Post object (1)>
+>>> Post.objects.create(title='Article-2', content='Energy and structure of bonds in the interaction of organic anions with layered double hydroxide nanosheets.')
+<Post: Post object (2)>
+>>> Post.objects.create(title='Article-3', content='Simulation of the Rayleigh waves in the proximity of the scattering velocity heterogeneities.')
+<Post: Post object (3)>
+
+Выводим все:
+>>> Post.objects.all()
+<QuerySet [<Post: Post object (1)>, <Post: Post object (2)>, <Post: Post object (3)>]>
+
+Выводим по id:
+>>> Post.objects.get(id=2)
+<Post: Post object (2)>
+
+Фильтруем:
+>>> Post.objects.filter(title='Article-3')
+<QuerySet [<Post: Post object (3)>]>
+
+Обновляем:
+>>> Post.objects.filter(id=2).update(title='New title 2')
+1
+
+Удаляем:
+>>> Post.objects.get(id=1).delete()
+(1, {'task_postgre.Post': 1})
+
+Выводим все (для проверки:
+>>> Post.objects.all()
+<QuerySet [<Post: Post object (3)>, <Post: Post object (2)>]>

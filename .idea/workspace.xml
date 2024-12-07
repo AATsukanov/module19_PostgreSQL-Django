@@ -4,29 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80aafce8-554a-4ef8-9544-a76c7302b77a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/module19_PostgreSQL+Django.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyProject/MyProject/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyProject/MyProject/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyProject/MyProject/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyProject/MyProject/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyProject/MyProject/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyProject/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyProject/task_postgre/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyProject/task_postgre/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyProject/task_postgre/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyProject/task_postgre/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyProject/task_postgre/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyProject/task_postgre/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyProject/task_postgre/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyProject/Решение.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    <list default="true" id="80aafce8-554a-4ef8-9544-a76c7302b77a" name="Changes" comment="добавлено решение 19.6">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyProject/MyProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyProject/MyProject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyProject/Решение.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MyProject/Решение.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,21 +17,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2pq0NCBotgi4KFxRDSzBojMrEIP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -67,6 +48,19 @@
       <option name="presentableId" value="Default" />
       <updated>1733478256516</updated>
     </task>
+    <task id="LOCAL-00001" summary="добавлено решение 19.6">
+      <option name="closed" value="true" />
+      <created>1733563997672</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733563997672</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="добавлено решение 19.6" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлено решение 19.6" />
   </component>
 </project>
